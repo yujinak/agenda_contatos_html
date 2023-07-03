@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #313459f2;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#bem-vindo {
+  padding: 25px 50px;
+  margin: auto;
+  text-align: center;
+  max-width: 1000px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+form label {
+  margin: 10px 0;
+}
+
+input {
+  font-size: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(255, 140, 140);
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(206, 103, 66);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#msg {
+  background-color: darkgrey;
+  color: white;
+  width: 60%;
+  margin: 10px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+table {
+  margin: 50px auto;
+  border: 1px solid #c3c3c357;
+  width: 75%;
+}
+
+th {
+  padding: 10px;
+  font-size: 20px;
+}
+
+table td {
+  padding: 5px;
+  text-align: center;
+}
+
+table tbody tr:hover {
+  background-color: rgba(47, 138, 138, 0.64);
+}
